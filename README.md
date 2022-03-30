@@ -1,6 +1,6 @@
-# Nelson Cadenas Website
+# Nelson Cadenas Web
 
-`Nelson Cadenas Web` is a personal website about me and my professional experience, skills, courses and completed projects displayed in a portfolio.
+This is a personal website about me and my professional experience, skills, courses and completed projects displayed in a portfolio.
 
 ## Features
 
@@ -31,7 +31,7 @@
 
 ## Demo
 
-[Nelson Cadenas Web](https://nelsoncadenas-web.netlify.app/)
+[Nelson Cadenas Web](https://nelsoncadenas.netlify.app/)
 
 ## Installation
 
