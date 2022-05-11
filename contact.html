@@ -177,7 +177,13 @@
           <!-- Left Side Ends -->
           <!-- Contact Form Starts -->
           <div class="col-12 col-lg-8">
-            <form class="contactform" name="contact">
+            <form
+              class="contactform"
+              name="contact"
+              method="POST"
+              data-netlify-recaptcha="true"
+              data-netlify="true"
+            >
               <div class="contactform">
                 <div class="row">
                   <div class="col-12 col-md-4">
@@ -198,7 +204,12 @@
                       name="message"
                       placeholder="YOUR MESSAGE"
                     ></textarea>
-                    <button type="submit" class="btn btn-contact">
+
+                    <div class="my-2">
+                      <div data-netlify-recaptcha="true"></div>
+                    </div>
+
+                    <button type="submit" class="btn btn-contact mt-1">
                       Send Message
                     </button>
                   </div>
